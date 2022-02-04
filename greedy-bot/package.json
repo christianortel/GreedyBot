@@ -1,0 +1,32 @@
+{
+  "name": "greedy-bot",
+  "version": "1.0.0",
+  "description": "The best trading bot.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "withdraw": "node withdrawV2.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/idecentralize-finance/greedy-bot.git"
+  },
+  "keywords": [
+    "trading",
+    "bot"
+  ],
+  "author": "Ian Dorion",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/idecentralize-finance/greedy-bot/issues"
+  },
+  "homepage": "https://idecentralize.finance",
+  "dependencies": {
+    "@idecentralize/erclib": "^1.4.5",
+    "@openzeppelin/contracts": "^4.4.2",
+    "dotenv": "^10.0.0",
+    "ethers": "^5.5.2"
+  }
+}
